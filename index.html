@@ -4,9 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js" defer></script>
     <title>Clima</title>
 </head>
 <body>
+    <div class="container">
+        <div class="formulario">
+            <h3>Confira o clima da sua cidade:</h3>
+            <div class="formulario-input-container">
+                <input type="text" placeholder="Digite o nome da cidade" id="input-cidade">
+                <button id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+        <div id="weather-data">
+            <h2>
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="cidade">São Paulo</span>
+                <img src="" alt="Bandeira do País" id="pais"/>
+            </h2>
+            <p id="temperatura"><span>31</span>&deg;C</p>
+            <div id="descricao-container">
+                <p id="descricao">Ensolarado</p>
+                <img src="" alt="Condições do tempo" id="icone-tempo">
+            </div>
+            <div id="detalhes-container">
+                <p id="umidade">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>48%</span>  
+                </p>
+                <p id="vento">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>3km/h</span>  
+                </p>
+            </div>
+
+        </div>
+    </div>
     
 </body>
 </html>
