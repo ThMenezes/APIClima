@@ -1,8 +1,7 @@
 ## Planejamento
 
-- [ ] Criar chave key no openWeatherAPI
-- [ ] Criar container
-- [ ] Criar formulário
+- [x] Criar chave key no openWeatherAPI
+- [x] Criar container de pesquisa
 - [ ] Variaveis css
 - [ ] Estilizar container
 - [ ] Estilizar formulário
