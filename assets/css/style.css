@@ -5,16 +5,18 @@
 }
 
 :root {
-    --bg-color: #8B7E74;
+    --bg-color: #8b7e74be;
     --text-color: #000000;
 }
 
 body {
-    background: linear-gradient(180deg, #8B7E74 0%, #C7BCA1 100%);
+    background-image: url(../img/img.png);
+    background-position: center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh;    
 }
 
 .hide {
@@ -48,13 +50,13 @@ body {
     padding: .8rem;
     min-width: 50px;
     margin-left: 8px;
-    background-color: #C7BCA1;
+    background-color: #c7bca1d5;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
-#erro-mensagem, #weather-data {
+#loader, #erro-mensagem, #weather-data {
     border-top: 1px solid #FFFFFF;
     margin-top: 1.5rem;
     padding-top: 1.5rem;

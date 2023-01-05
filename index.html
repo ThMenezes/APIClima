@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/script.js" defer></script>
     <title>Clima</title>
 </head>
+
 <body>
     <div class="container">
         <div class="formulario">
@@ -27,7 +32,7 @@
             <h2>
                 <i class="fa-solid fa-location-dot"></i>
                 <span id="cidade">São Paulo</span>
-                <img src="" alt="Bandeira" id="pais"/>
+                <img src=""  id="pais" />
             </h2>
             <p id="temperatura"><span></span>&deg;C</p>
             <div id="descricao-container">
@@ -37,16 +42,23 @@
             <div id="detalhes-container">
                 <p id="umidade">
                     <i class="fa-solid fa-droplet"></i>
-                    <span></span>  
+                    <span></span>
                 </p>
                 <p id="vento">
                     <i class="fa-solid fa-wind"></i>
-                    <span></span>  
+                    <span></span>
                 </p>
             </div>
+        </div>
 
+        <div id="erro-mensagem" class="hide">
+            <p> Não foi possível encontrar o clima de uma cidade com esse nome.</p>
+        </div>
+        <div id="loader" class="hide">
+            <i class="fa-solid fa-spinner"></i>
         </div>
     </div>
-    
+
 </body>
+
 </html>
