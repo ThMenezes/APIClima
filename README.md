@@ -2,9 +2,10 @@
 
 - [x] Criar chave key no openWeatherAPI
 - [x] Criar container de pesquisa
-- [ ] Variaveis css
-- [ ] Estilizar container
-- [ ] Estilizar formulário
-- [ ] Criar funções
-- [ ] Adicionar evento ao botão de pesquisa
-- [ ] Ativar classe hide
+- [x] Variaveis css
+- [x] Estilizar container
+- [x] Estilizar formulário
+- [x] Criar funções
+- [x] Adicionar evento ao botão de pesquisa
+- [x] Ativar classe hide
+- [ ] Tratamento de erro
