@@ -1,5 +1,5 @@
 const apiKey = "";
-const apiPaisURL = "https://countryflagsapi.com/png";
+const apiPaisURL = "https://countryflagsapi.com/png/";
 const apiUnsplash = "https://source.unsplash.com/1600x900/?";
 
 const inputCidade = document.querySelector('#input-cidade');

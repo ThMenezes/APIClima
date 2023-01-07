@@ -1,3 +1,11 @@
+<div align="center">
+
+# API Clima
+
+<img width="100%" src="assets/img/inicio.png">
+
+</div>
+
 ## Planejamento
 
 - [x] Criar chave key no openWeatherAPI
@@ -8,4 +16,5 @@
 - [x] Criar funções
 - [x] Adicionar evento ao botão de pesquisa
 - [x] Ativar classe hide
-- [ ] Tratamento de erro
+- [x] Tratamento de erro
+- [x] Interação no background
