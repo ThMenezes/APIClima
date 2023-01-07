@@ -6,9 +6,9 @@
 
 Após informação de cidade:
 
-<img width="100%" src="assets/img/parte1">
+<img width="100%" src="assets/img/parte1.png">
 
-Caso usuário digite algo errado. Exemplo:(siglas (sp), erro de digitação ou outras coisas).
+Caso usuário digite algo errado. Exemplo: (siglas (sp), erro de digitação ou outras coisas).
 
 <img width="100%" src="assets/img/erro.png">
 
@@ -22,7 +22,7 @@ Com esse projeto pude aprender mais sobre consumo de api, nele utilizei três ap
 
 ## Imagem do projeto na versão Mobile:
 
-<img width="100%" src="assets/img/mobile.png">
+<img width="30%" src="assets/img/mobile.png">
 
 ## Planejamento do projeto
 
